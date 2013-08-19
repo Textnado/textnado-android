@@ -1,4 +1,4 @@
-package com.textnado;
+package com.textnado.android;
 
 import android.os.Bundle;
 import android.app.Activity;
