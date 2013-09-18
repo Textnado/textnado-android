@@ -3,7 +3,7 @@ script: echo "Passed"
 notifications:
   hipchat:
     rooms:
-      - secure: QAerp52aBhXfabUkAo2HmsI7Y+hTvG7nZybAQhtfDLc/h5bJpxaVWm9Bc4loLtpprArN4vXoAzgQ/qpPoBmjeeLLf4RHiIhyf7vcYmQh9/qGkWIEoX9JvIRF6yISUf92R+Z3b0gxbNkEpNA6aPnuilBKS5G0TBcyK9ZPzI4HZx4=
+      secure: n1yJVVN123ToqaOFj+lHczlUUytO0Fl/l3gmidfwUbP8y5eKhNhXqgxTL0f5sZDnlvejDi96AsEcI0zM+D9glP1AjqCaV2zwntbzJO3vt1J5d1IHtgPwzQeATXNtqDalo3q0sPjW+8QNZnKugbwgiEhlfBazvhD41f9wxcUZobM=
     template:
     - ! '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message} (<a href="%{build_url}">Details</a>/<a href="%{compare_url}">Change view</a>)'
     format: html
